@@ -9,7 +9,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color:burlywood;
+    background-image: url(./images/wooden.jpg);
+    /* background-color:burlywood; */
 }
 
 body > ul {
@@ -20,10 +21,25 @@ body > ul {
 .projects-list > li {
     flex-basis: 50%;
     margin-bottom: 50px;  
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .projects-list > li > a {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
+    font-weight: bolder;
+}
+
+.handle {
+    text-align: center;
+    color:darkviolet;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
